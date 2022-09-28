@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 Body {
+	background-image:linear-gradient(rgba(38,38,38,.7),rgba(38,38,38,.7)),url(possibleBackground.jpg);
 	background-size: cover;
 	color: #5DACBD;
 }
@@ -66,7 +67,7 @@ h2 {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;  
-	width: 68%;
+	width: 75%;
 	height: 300px;
 	min-height: 100%;
 	margin: auto;;
