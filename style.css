@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+Body {
+	background-image:linear-gradient(rgba(38,38,38,.7),rgba(38,38,38,.7)),url("possiblebackground.jpg");
+	background-size: cover;
+	color: #5DACBD;
+}
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+	color: #000000;
+	padding: 15px;
+}
+.centeredLogo {
+	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+	width: 25%;
+	max-width: 50%;
+	height: auto;
+}
+.logoCaption {
+	text-align: center;
+	font-size: 32px;
+	font-family: Manrope, sans-serif;
+}
+.slogan {
+	padding: 20px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.navigationBar {
+	font-size: 24px;
+	overflow: hidden;
+	background-color: #333333;
+	opacity: .7;
+	position: fixed;
+	top: 0;
+	width: 100%
+}
+.navigationBar a {
+  	float: left;
+  	display: block;
+  	color: #5DACBD;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+	transition: .3s ease all;
+}
+.navigationBar a:hover {
+  	background: #88841C;
+  	color: #000000;
+	transition: .3s ease all;
+}
+.headerSpace {
+  margin-top: 50px;
+}
+.information {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	background-color: #377A89;
+	color: #FFFFFF;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+	width: 65%;
+	height: 300px;
+	min-height: 100%;
+	margin: auto;;
+	padding: 10px;
+	font-size: 32px;
+	text-align: center;
+	
+}
+.information:hover {
+	font-size: 0;
+}
+.information:hover:after {
+	content: attr(data-hover);
+	font-size: 32px;
+	line-height: 28px;
+	font-weight: 200px;
+	text-align: center;
+}
+
+
