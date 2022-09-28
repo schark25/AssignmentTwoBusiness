@@ -54,7 +54,7 @@ h2 {
 	transition: .3s ease all;
 }
 .headerSpace {
-  margin-top: 50px;
+  margin-top: 60px;
 }
 .information {
 	align-items: center;
@@ -86,5 +86,25 @@ h2 {
 	font-weight: 200px;
 	text-align: center;
 }
-
-
+.responsiveImage {
+	max-width: 100%;
+  	height: auto;
+}
+footer {
+	background-color: #1B1A1A;
+	text-align: center;
+  	bottom: 0;
+	width: 100%;
+}
+footer .centeredLogo {
+	width: 10%;
+}
+.contactInfo {
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+	padding: 16px;
+    width: 50%;
+	text-align: center;
+	font-size: 32px;
+}
